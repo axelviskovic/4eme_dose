@@ -10,12 +10,12 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
 <script src="https://www.amcharts.com/lib/4/core.js"></script>
 <script src="https://www.amcharts.com/lib/4/charts.js"></script>
 <script src="https://www.amcharts.com/lib/4/plugins/wordCloud.js"></script>
 <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
 
+<!-- Header -->
 <nav>
   <div class="headerTab">
   <div id="current_date"></div>
@@ -31,10 +31,12 @@
   <div class="headerTab"><h2>The Fake News</h2></div>
 </nav>
 
+<!-- Loader -->
 <div class="loaderContainer">
   <div class="loader"></div>
 </div>
 
+<!-- Texte intro -->
 <div id="firstTxt">
   <h2>Beware you may be influenced</h1>
   <p>Our project aims to raise awareness of fake news which is becoming more and more present and which is therefore an important subject to deal with.<br>We wanted to highlight the topics that came up the most in articles sharing fake news to get our users to react.</p>
@@ -42,12 +44,13 @@
 </div>
 <div id="chartdiv">
 </div>
+
+<!-- Texte explication -->
   <div class="txtChart">
     <h3 id="text1">You can currently see the most used words in the fakenews articles.<br>The bigger the word, the more it was used.</h3>
     <h3 id="text2">Number of articles : 5400<br></h3>
     <h4 id="text3">You can move your mouse over the elements to see how many times the word is present.</h4>
   </div>
-<!-- partial -->
   <script  src="./script.js"></script>
 
 </body>
